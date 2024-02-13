@@ -9,6 +9,8 @@ body {
     margin: 0 auto;
 }
 
+.container img{border-radius: 15%;}
+
 header {
     background-color: #1D0200;
     color: #fff;
@@ -50,18 +52,19 @@ footer {
 .slides {
     overflow: hidden;
     position: relative;
-    height: 400px; 
+    height: 600px; 
+    width: 100%;
+    margin: auto;
+   
+    
 }
 
-.slide {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto; width:50%; margin: auto; 
-}
+
 
 .slide img {
-    width: 100%; border-radius: 30px; height:400px;
+    width: 80%; 
+    border-radius: 30px; 
+    height:600px;   margin:10px;
 }
 
 
@@ -72,3 +75,17 @@ footer {
 #contact ul li{
     list-style-type: none;
 }
+
+/*
+.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    width:50%; 
+    margin: auto;
+     border: 3px solid #1D0200;
+     border-radius: 30%;
+}
+
+*/
