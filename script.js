@@ -28,4 +28,4 @@ function prevSlide() {
 }
 
 showSlide(currentSlide);
-setInterval(nextSlide, 6000);
+setInterval(nextSlide, 9000);
